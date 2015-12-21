@@ -1,0 +1,770 @@
+#  
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipelineProcessor
+# vsim work.pipelineProcessor 
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipelineProcessor/*
+run -all
+# Break key hit 
+run
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# ** Error: /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v(39): near "endmodule": syntax error, unexpected endmodule
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+# Load canceled
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/reg_file.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/reg_file.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/reg_file.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Break in Module alu at /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/alu.v line 5
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Break in Module alu at /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/alu.v line 4
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+quit -sim
+# Break key hit 
+# Simulation stop requested.
+# WLF meta update error: 
+# Error while executing: run
+# Usage: run <timesteps>[<time_units>] | -all | -continue | -init | -next | -step | -over
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+# Can't move the Now cursor.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/MEMWBPipeReg.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipeReg
+# 
+# Top level modules:
+# 	MEMWBPipeReg
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/pipelineProcessor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module pipelineProcessor
+# 
+# Top level modules:
+# 	pipelineProcessor
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/pipelineProcessor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module pipelineProcessor
+# 
+# Top level modules:
+# 	pipelineProcessor
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/reg_file.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.
+vlog -reportprogress 300 -work work /Users/Student/sflahert/proj2v2/compArch/compArchFinalProj/forwardingUnit.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ForwardingUnit
+# 
+# Top level modules:
+# 	ForwardingUnit
+vsim work.pipeline_cpu_tb
+# vsim work.pipeline_cpu_tb 
+# Loading work.pipeline_cpu_tb
+# Loading work.Memory
+# Loading work.pipelineProcessor
+# Loading work.InstructionFetch
+# Loading work.pc_counter
+# Loading work.mux32_2_1
+# Loading work.alu
+# Loading work.IFIDPipeReg
+# Loading work.controlunit
+# Loading work.InstructionDecode
+# Loading work.sign_extend
+# Loading work.shiftleft2
+# Loading work.reg_file
+# Loading work.comparator
+# Loading work.andGate
+# Loading work.orGate
+# Loading work.IDEXPipeReg
+# Loading work.execute
+# Loading work.alu_control
+# Loading work.mux4_4_1
+# Loading work.mux4_2_1
+# Loading work.EXMEMPipeReg
+# Loading work.MEMWBPipeReg
+# Loading work.HazardDetector
+# Loading work.ForwardingUnit
+add wave -r sim:/pipeline_cpu_tb/*
+run -all
+# Break key hit 
+# Simulation stop requested.

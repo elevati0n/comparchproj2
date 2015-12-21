@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>pro</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>net.sf.sveditor.core.SVProjectBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>net.sf.sveditor.core.SVNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>memory.v</name>
+			<type>1</type>
+			<location>/Users/clean/oldEECE3324/project1/topcomponents/testbench/memory.v</location>
+		</link>
+	</linkedResources>
+</projectDescription>

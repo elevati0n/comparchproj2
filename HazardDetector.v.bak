@@ -1,0 +1,80 @@
+/****************************************************************************
+ * HazardDetector.v
+ ****************************************************************************/
+
+/**
+ * Module: HazardDetector
+ * 
+ * TODO: Add module documentation
+ */
+ 
+module HazardDetector(
+		input [4:0] IDEXinstrRt2016,
+		input [4:0] IFIDinstrRs2521,
+		input [4:0] IFIDinstrRt2016,
+		input IDEXMemRead,
+		output reg stall,
+		input RegWrite,
+		input MemWrite,
+		input jump,
+		output reg RegWriteSafe,
+		output reg MemWriteSafe);
+		
+		
+	
+	// by taking in the signals direct from the control unit, we can
+	// easily change them... just make sure to let them pass thru unchanged normally
+		
+	//RegWrite and MemWrite 
+		
+		
+	//input 
+	//IDEXinstr[20:16]
+	//IFIDinstr[25:21]
+	//IFIDinstr[20:16]
+	//IDEXMemRead
+	
+	//output
+	//stall signal.. can be same for three units??
+	
+	//sure why not
+	
+	//built in control signal mux
+	
+	
+	//takes input
+	
+	always @
+		(IDEXinstrRt2016 or 
+		IFIDinstrRs2521 or
+		IFIDinstrRt2016 or 
+		IDEXMemRead or
+		RegWrite or 
+		MemWrite)
+		
+		begin if (IDEXMemRead == 1) 
+			begin if ((IDEXinstrRt2016 == IFIDinstrRs2521) || (IDEXinstrRt2016 == IFIDinstrRt2016) )
+				begin 
+					RegWriteSafe = 0;
+					MemWriteSafe = 0;
+					stall = 1;
+				end
+			else 
+				RegWriteSafe = RegWrite; 
+				MemWriteSafe = MemWrite;
+				stall = 0;
+			end
+		else 
+			RegWriteSafe = RegWrite; 
+			MemWriteSafe = MemWrite;
+			stall = 0;
+		end
+		
+			
+	
+	
+
+
+endmodule
+
+

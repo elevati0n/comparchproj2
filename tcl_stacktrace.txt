@@ -1,0 +1,76 @@
+Sun Dec 20 03:35:45 AM EST 2015
+Trace back: Bad window index: .main_pane.source7
+    while executing
+"error "Bad window index: $window""
+    (object "::.main_pane.cs.19" method "::mtiwidgets::Tabbedwindow::tabconfigure" body line 13)
+    invoked from within
+".main_pane.cs.19 tabconfigure .main_pane.source7 -mark {}"
+    ("eval" body line 1)
+    invoked from within
+"eval [linsert $args 0 $pp tabconfigure $window]"
+    (object "::.main_pane" method "::mtiwidgets::Panemanager::tabconfigure" body line 9)
+    invoked from within
+"$itk_option(-panemanager) tabconfigure $itk_component(hull) -mark $itk_option(-mark)"
+    (while configuring option "-mark" for widget "::.main_pane.source7")
+    (object "::.main_pane.source7" method "::itk::Archetype::configure" )
+    invoked from within
+"$windowobj configure -mark """
+    (procedure "SourceTitle" line 11)
+    invoked from within
+"SourceTitle .main_pane.source7"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-titlecommand) $frame_name"
+    (object "::.main_pane.source7" method "::mtiwidgets::WindowObj::Title" body line 9)
+    invoked from within
+"Title"
+    (object "::.main_pane.source7" method "::mtiwidgets::WindowObj::UpdateText" body line 9)
+    invoked from within
+"$windowobj UpdateText"
+    (object "::.main_pane.source7.interior.cs.body.editor" method "::vsimwidgets::Srcedit::UpdateSourceState" body line 39)
+    invoked from within
+"::.main_pane.source7.interior.cs.body.editor UpdateSourceState"
+    (in namespace inscope "::vsimwidgets::Srcedit" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcedit {::.main_pane.source7.interior.cs.body.editor UpdateSourceState}"
+    (command bound to event)
+  <2: ::tkerror {Bad window index: .main_pane.source7}
+  <1: ::bgerror {Bad window index: .main_pane.source7}
+Sun Dec 20 08:41:58 AM EST 2015
+Trace back: Bad window index: .main_pane.source
+    while executing
+"error "Bad window index: $window""
+    (object "::.main_pane.cs.319" method "::mtiwidgets::Tabbedwindow::tabconfigure" body line 13)
+    invoked from within
+".main_pane.cs.319 tabconfigure .main_pane.source -mark {}"
+    ("eval" body line 1)
+    invoked from within
+"eval [linsert $args 0 $pp tabconfigure $window]"
+    (object "::.main_pane" method "::mtiwidgets::Panemanager::tabconfigure" body line 9)
+    invoked from within
+"$itk_option(-panemanager) tabconfigure $itk_component(hull) -mark $itk_option(-mark)"
+    (while configuring option "-mark" for widget "::.main_pane.source")
+    (object "::.main_pane.source" method "::itk::Archetype::configure" )
+    invoked from within
+"$windowobj configure -mark """
+    (procedure "SourceTitle" line 11)
+    invoked from within
+"SourceTitle .main_pane.source"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-titlecommand) $frame_name"
+    (object "::.main_pane.source" method "::mtiwidgets::WindowObj::Title" body line 9)
+    invoked from within
+"Title"
+    (object "::.main_pane.source" method "::mtiwidgets::WindowObj::UpdateText" body line 9)
+    invoked from within
+"$windowobj UpdateText"
+    (object "::.main_pane.source.interior.cs.body.editor" method "::vsimwidgets::Srcedit::UpdateSourceState" body line 39)
+    invoked from within
+"::.main_pane.source.interior.cs.body.editor UpdateSourceState"
+    (in namespace inscope "::vsimwidgets::Srcedit" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Srcedit {::.main_pane.source.interior.cs.body.editor UpdateSourceState}"
+    (command bound to event)
+  <2: ::tkerror {Bad window index: .main_pane.source}
+  <1: ::bgerror {Bad window index: .main_pane.source}
